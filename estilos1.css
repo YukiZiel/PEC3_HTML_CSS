@@ -1,0 +1,208 @@
+.menu {
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 2em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a.pagina-actual {
+    color:white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+section {
+    width: 95%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    font-size: 19px;
+    color: rgb(68, 68, 68);
+}
+
+h1 {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+    color: rgb(68, 68, 68);
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: left;
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 1.3em;
+    color: rgb(68, 68, 68);
+}
+
+a:hover {
+    color: #ff1616;
+}
+
+.link {
+    color: #ff1616;
+    text-decoration: none;
+}
+.link:hover {
+    color: #ff1616;
+    text-decoration: underline;
+}
+
+.linkpelicula {
+    color: #ff1616;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.linkpelicula:hover {
+    color: #ff1616;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+iframe {
+    border: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 900px;
+    height: 500px;
+}
+
+
+figcaption {
+    text-align: right;
+    width: 970px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.fotorobot {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1140px;
+   }
+
+.pierobot {
+    text-align: right;
+    width: 1050px;
+    font-size: 14px;
+    padding: 10px;
+}   
+   
+abbr {
+    text-decoration: none;
+}
+cite {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p.info {
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    font-size: 18px;
+}
+
+#fotoautora {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    display: block;
+    width:150px;
+    height:150px;
+    border-radius:150px;
+}
+
+#autora {
+    text-align: justify;
+    width:100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    margin-bottom: 60px;
+    line-height: 1.5em;
+}
+
+section.listarobots {
+    width:100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 1.5em;
+    color: rgb(68, 68, 68);
+}
+
+.citaIsaac {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(230, 230, 230);
+    padding: 30px;
+    font-size: 16px;
+    border-style: none none none solid;
+    border-color:#ff1616;
+}
+
+.tiposrobots>li {
+    list-style-image:url('../img/icon-robot.png');
+    font-size: 14px; 
+}
+
+.usosrobots>li {
+    list-style-type: square;
+    list-style-image: none;
+}
+
+li {
+    list-style-type: disc;
+    list-style-image: none;
+}
+
+section.robotsdeficcion {
+    width:95%;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    line-height: 1.5em;
+    color: rgb(68, 68, 68);
+}
+
+dt {
+    padding: 39px 39px 0 39px;
+    font-size: 45px;
+}
+
+.robotpelicula {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.enlacefoto {
+    text-align: center;
+}

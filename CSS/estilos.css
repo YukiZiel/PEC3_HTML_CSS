@@ -1,0 +1,196 @@
+
+.lema {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.titulo {
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+    font-weight: 800;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+/*.titulo:hover{
+
+}
+*/
+
+
+.menu a {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    text-align: center;
+    display:grid;
+    line-height: 2rem;
+}
+.menu a:hover {
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+a.actual {
+    color: rgb(189, 55, 0);
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+    /*max-width: 500px;
+    */
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    line-height: 2rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5rem;
+}
+
+form {
+    font-family: 'Raleway', sans-serif;
+}
+
+figcaption {
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 0px 20px 0px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#fotofondo {
+    background-image: url("/img/bg-hero-home.jpg");
+    background-repeat: no-repeat;
+    background-size:700px;
+    padding: 100px 0px 100px 0px;
+    max-width: 500px;
+    text-align: left;
+    font-size: 3rem;
+    font-weight: lighter;
+    color: rgb(255, 255, 255);
+    /*line-height: ;
+    */
+}
+
+.fotonoticias {
+    max-width: 500px;
+}
+
+#articulos{
+    text-align: left;
+}
+
+.imagenlateral {
+    width: 400px;
+}
+
+#videos {
+    text-align: center;
+    padding-top: 20px;
+}
+section {
+    background-color: rgb(238, 238, 238);
+}
+
+#formulario {
+    background-color: rgb(242, 232, 228);
+    max-width: 500px;
+    padding: 40px 0px 40px 0px;
+}
+
+#formulario h2{
+    max-width: 450px;
+    text-align: center;
+    margin-top: 0px;
+}
+#formulario p{
+    max-width: 450px;
+}
+
+.video figcaption{
+    background-color: rgb(255, 255, 255);
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+    border-bottom-style: dotted;
+    border-width: 1px;
+    color: rgb(189, 55, 0);
+}
+
+.linktitle {
+    text-decoration: none;
+    color: rgb(189, 55, 0);
+}
+
+.linktitle:hover {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+abbr {
+    text-decoration: none;
+}
+
+.texto {
+    max-width: 500px;
+}
+
+footer {
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+footer nav{
+    padding: 60px 0px 20px 0px;
+}
+footer p {
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.iconos a:hover {
+    opacity: 0.7;
+}
+
+footer a:hover {
+    color: rgb(189, 55, 0); 
+}
+
+/*section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+*/

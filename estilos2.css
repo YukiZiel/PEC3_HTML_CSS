@@ -1,0 +1,344 @@
+#logoblanco{
+    width: 200px;
+    padding-top: 20px;
+}
+
+#menu-principal{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+header nav{
+    margin-left: 13%;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+header a{
+    color: black;
+}
+
+header a:hover{
+    color: rgb(91, 73, 254);
+}
+
+header ul{
+    margin-top: 10px;
+}
+
+header.menu{
+    background-color: white;
+    box-shadow: 1px 5px 10px #b9b9b9;
+}
+
+body{
+    background-color: #f9f9f9;
+}
+
+.pagina-actual{
+    font-weight: 700;
+}
+
+#intro{
+    margin-left: 13%;
+    margin-right: 54%;
+}
+
+#intro p{
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8rem;
+}
+
+.titulo {
+    font-family:'Poppins', sans-serif;
+    font-size: 4rem;
+    line-height: 5rem;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+span{
+    color: white;
+}
+
+.logo {
+    width: 200px;
+    padding-top: 20px;
+}
+
+.buscador {
+    position: relative;
+    margin-left: 13%;
+    margin-top: 30px;
+}
+
+.buscador img {
+    position:absolute;
+    top: 11px;
+    left: 7px;
+}
+
+.buscador input {
+    padding-left: 47px;
+    font-size: 1.1rem;
+    color:gray;
+}
+
+#busqueda {
+    width: 650px;
+    height: 60px;
+}
+
+a.pagina-actual {
+    font-weight: bold;
+}
+
+#fondo {
+    background-image: url("/img/hero_image_bg.png"),linear-gradient(75deg, rgb(207, 243, 125),rgb(125, 232, 140));
+    background-repeat: no-repeat;
+    background-size: 37%, cover;
+    background-position: 80% 71%, 0;
+}
+
+body {
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1{
+    font-family:'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 40px;
+}
+
+.catalogo{
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-bottom: 5%;
+}
+
+figure {
+    display: inline-block;
+    margin-left: 0px;
+}
+figure img {
+    vertical-align: top;
+    background-color: white;
+    border: 1.5px solid rgb(207, 243, 125);
+    margin-bottom: 8px;
+    padding: 13px;
+}
+figure figcaption {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+h2{
+    font-family:'Poppins', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    margin-top: 0px;
+    line-height: 25px;
+}
+
+p.ayuda {
+    font-family: 'Inter', sans-serif;
+    margin-top: 20px;
+    line-height: 25px;
+}
+
+li {
+  display: inline;
+  margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    color: rgb(125, 232, 140);
+}
+
+#alta{
+    color: rgb(91, 73, 254);
+    border: none;
+    border-bottom: 1px dotted;
+}
+
+#alta:hover{
+    color: rgb(125, 232, 140);
+}
+
+.talla{
+    margin-left: 13%;
+    margin-right: 13%;
+}
+
+table {
+    table-layout: auto;
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 1px;
+    border: 1px solid black;
+    font-family: 'Inter', sans-serif;
+    margin-top: 30px;
+    --color: rgb(125, 232, 140);
+}
+  
+th, td {
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+  
+thead th{
+    text-align: center;
+}
+  
+th {
+    text-align: left;
+    padding-left: 10px;
+    border: 1px solid black;
+    background-color: rgb(207, 243, 125);
+}
+
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.color td{
+    border-bottom: 1px solid var(--color);
+}
+
+.empty{
+    background-color: rgb(125, 232, 140);
+}
+
+caption {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    caption-side: top;
+    text-align: center;
+    background-color: rgb(91, 73, 254);
+}
+
+.formulario{
+    margin-left: 13%;
+    margin-right: 13%;
+    font-family: 'Inter', sans-serif;
+}
+
+form{
+    margin-top: 30px;
+}
+
+fieldset{
+    margin-right: 50%;
+    margin-bottom: 30px;
+    padding: 10px 40px 20px 40px;
+    border-color:rgb(91, 73, 254);
+    background-color: white;
+}
+
+#obligatorio{
+    color: red;
+}
+
+abbr{
+    text-decoration: none;
+    color: red;
+}
+
+legend{
+    padding: 3px 10px 3px 10px;
+    color: white;
+    background-color: rgb(91, 73, 254);
+    margin-left: 30px;
+}
+
+.datos-compra{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.contacto input{
+    display: block;
+    width: 98.8%;              
+    width: calc(100% - 0.6em);
+    height: 25px;
+    font-family: 'Inter', sans-serif;
+}
+
+.contacto label{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+select{
+    width: 100%;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    color: grey;
+    background-color: white;
+    border: 1px solid;
+}
+
+select.metodo-pago {
+    width: 35%;
+    height: 30px;
+    font-family: 'Inter', sans-serif;
+    color: grey;
+    background-color: white;
+    border: 1px solid;
+}
+
+footer {
+    background-color: rgb(91, 73, 254);
+    color: white;
+    line-height: 0.3rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    padding-left: 13%;
+    padding-top: 20px;
+    width: 87%;
+    height: 80px;
+    margin: 0px;
+    margin-top: auto;
+}  
+
+.block label{
+    display: block;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+
+button{
+    background-color: rgb(91, 73, 254);
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(91, 73, 254);;
+    padding: 5px 10px 5px 10px;
+    margin-bottom: 40px;
+}
+
