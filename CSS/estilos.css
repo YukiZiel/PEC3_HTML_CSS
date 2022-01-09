@@ -115,15 +115,47 @@ section{
 
 #formulario {
     background-color: rgb(242, 232, 228);
-    ;
     padding-top: 40px;
     padding-bottom: 40px;
+    margin-top: 40px;
 }
 
 #formulario h2{
-    max-width: 450px;
     text-align: center;
     margin-top: 0px;
+}
+
+#formulario p {
+    max-width: 400px;
+    margin: 0;
+    align-items: center;
+    font-size: 0.7rem;
+}
+
+#formulario form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#formulario input {
+    padding: 10px;
+}
+
+button {
+    background-color: rgb(189, 55, 0);
+    color: rgb(255, 255, 255);
+    padding:10px;
+    border-style: none;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 .video figcaption{
@@ -160,11 +192,18 @@ abbr {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
     font-family: 'Raleway', sans-serif;
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    text-align: center;
+    text-align: left;
     font-size: 1.2rem;
+}
+
+footer ul {
+    display: flex;
+    gap: 10px;
 }
 
 footer nav{
@@ -173,7 +212,6 @@ footer nav{
 footer p {
     margin: 0;
     padding-bottom: 40px;
-    ;
 }
 
 footer a{
@@ -183,7 +221,7 @@ footer a{
 
 .iconos {
     display: flex;
-    align-items: center;
+    align-items: left;
     padding-top: 20px;
 }
 
