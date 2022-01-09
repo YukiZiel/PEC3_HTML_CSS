@@ -126,8 +126,9 @@ figcaption {
 }
 
 #articulos{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     gap: 30px;
     text-align: left;
 }
@@ -138,8 +139,7 @@ figcaption {
 }
 
 #articulos article{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     background-color: rgb(255, 255, 255);
     margin-bottom: 40px;
     text-align: justify;
@@ -148,28 +148,30 @@ figcaption {
     gap: 30px;
     font-size: 1.2rem;
 }
+
 #articulos article:nth-child(1) {
-    
+    grid-column: 1 / span 2;
+    grid-row: 1;
 }
 
 #articulos article:nth-child(2) {
-    position: relative;
-    left: 10%;
+    grid-column: 2 / span 2;
+    grid-row: 2;
 }
 
 #articulos article:nth-child(3) {
-    position: relative;
-    right: 10%;
+    grid-column: 1 / span 2;
+    grid-row: 3;
 }
 
 #articulos article:nth-child(4) {
-    position: relative;
-    left: 10%;
+    grid-column: 2 / span 2;
+    grid-row: 4;
 }
 
 #articulos article:nth-child(5) {
-    position: relative;
-    right: 10%;
+    grid-column: 1 / span 2;
+    grid-row: 5;
 }
 
 #articulos img {
@@ -181,6 +183,7 @@ figcaption {
 #articulos p {
     max-width: 300px;
     font-size: 1rem;
+    word-wrap: break-word;
 }
 
 .imagenlateral {
@@ -381,8 +384,8 @@ footer a:hover {
 }
 
 .padding {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 .padding h2{
@@ -468,5 +471,16 @@ figure {
         max-width: 300px;
     }
 
+    #articulos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #articulos article{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
 
 }
